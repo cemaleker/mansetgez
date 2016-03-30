@@ -15,3 +15,4 @@ class ScraperItem(scrapy.Item):
 
 class Manset(scrapy.Item):
     url = scrapy.Field()
+    href = scrapy.Field()
